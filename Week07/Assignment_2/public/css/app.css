@@ -1,0 +1,23 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 350px;
+}
+
+.form-select {
+    text-align: center;
+}
+
+#outcome {
+    font-size: xx-large;
+    font-weight: 500;
+    color: white;
+    background-color: #17a2b8;
+    border-radius: 5em / 5em;
+    padding: 5px;
+}
