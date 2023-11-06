@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{title}}</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/app.css" />
+    </head>
+    <body>
+        <div class="container mt-3">
+            <div class="row">
+                <h1>{{heading}}</h1>
+            </div>
+            <div class="row">
+                <form action="" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Họ và tên</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            name="name"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label"
+                            >Địa chỉ email</label
+                        >
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                        />
+                        <div id="emailHelp" class="form-text">
+                            Chúng tôi sẽ không bao giờ chia sẻ thông tin email
+                            của bạn cho bất kỳ ai khác.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phoneNumber]" class="form-label"
+                            >Số điện thoại</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="phoneNumber"
+                            name="phoneNumber"
+                        />
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input
+                            type="checkbox"
+                            class="form-check-input"
+                            id="confirm"
+                        />
+                        <label class="form-check-label fst-italic" for="confirm"
+                            >Xác nhận sẽ tham gia (nếu có bất vấn đề nào khác
+                            xin liên hệ với đội ngũ quản trị viên)</label
+                        >
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Đăng ký
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <script type="module" src="/js/client.js"></script> -->
+    </body>
+</html>
